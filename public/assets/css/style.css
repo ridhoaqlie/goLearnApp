@@ -2,7 +2,7 @@
     text-decoration: none;
     font-size: 1em;
     color: inherit;
-    font-weight: 500;
+    font-weight: 700;
     padding: 0.4em 0.5em;
 }
 
@@ -33,5 +33,74 @@
     border-radius: 0.7em;
     font-weight: 700;
     color: #0081b6;
-    padding: 0.5em 1em;
+    padding: 0.7em 1em;
+    border: none;
+    transition: 0.3s;
+}
+
+.promo button:hover {
+    transform: translateY(-2px);
+    transition: 0.3s;
+}
+
+.kategori {
+    transition: all 0.3s;
+}
+
+.kategori:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-item:hover {
+    filter: brightness(80%);
+}
+
+.dropdown-item {
+    height: 50px;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.transition {
+    transition: all .3s ease-out;
+}
+
+.heading {
+    text-align: center;
+    font-size: 0.8em;
+
+}
+
+strong {
+    color: #58ba83;
+}
+
+.transition {
+    transition: all .3s ease-out;
+}
+
+.listcourse ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.listcourse ul li {
+    list-style: none;
+}
+
+.filter {
+    text-decoration: none;
+    color: #5d676e;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-right: 2em;
 }
